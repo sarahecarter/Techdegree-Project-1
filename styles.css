@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: white;
 }
 a:hover {
   color: #6633ff;
@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #96B8D6;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -51,8 +51,13 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
+
 .nav a:hover {
   color: white
+}
+
+.nav :hover {
+  transform: scale(1.2);
 }
 
 header {
@@ -85,12 +90,12 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #96B8D6;
+  color: white;
 }
 .card {
   margin: 30px;
-  padding: 20px 40px 40px;
+  padding: 20px 20px 20px;
   max-width: 500px;
   text-align: left;
   background: #fff;
@@ -99,7 +104,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #96B8D6;
 }
 
 ul.skills {
