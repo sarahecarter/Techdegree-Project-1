@@ -18,7 +18,7 @@ a {
   color: white;
 }
 a:hover {
-  color: #6633ff;
+  transform: scale(1.2);
 }
 
 /* Section Styles */
@@ -45,18 +45,13 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+
 .nav li {
   padding: 5px 10px 10px 10px;
-}
-.nav a {
   transition: all .5s;
 }
 
-.nav a:hover {
-  color: white
-}
-
-.nav :hover {
+.nav li:hover {
   transform: scale(1.2);
 }
 
